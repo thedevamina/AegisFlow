@@ -1,0 +1,38 @@
+# Laravel
+/AegisBackend/.env
+/AegisBackend/.env.*
+!/AegisBackend/.env.example
+
+/AegisBackend/vendor/
+/AegisBackend/node_modules/
+/AegisBackend/public/build/
+/AegisBackend/public/hot
+
+/AegisBackend/storage/*.key
+/AegisBackend/storage/logs/*
+/AegisBackend/storage/framework/cache/*
+/AegisBackend/storage/framework/sessions/*
+/AegisBackend/storage/framework/testing/*
+/AegisBackend/storage/framework/views/*
+
+/AegisBackend/bootstrap/cache/*.php
+
+/AegisBackend/database/*.sqlite
+/AegisBackend/database/*.sqlite-*
+
+# Python
+/ml-service/venv/
+/ml-service/__pycache__/
+/ml-service/**/*.pyc
+
+# Environment / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
