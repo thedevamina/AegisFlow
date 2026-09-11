@@ -27,10 +27,10 @@ Tracking against the senior-engineer phased roadmap (6 phases, ~30 days effort).
 **Phase 1 remaining**
 - [x] Postgres schema design (ERD) for repos / pull_requests / files_changed / labels / predictions
 - [x] Laravel migrations implementing the schema
-- [ ] Data cleaning pipeline
-- [ ] Label generation implementing ADR-002's rules
-- [ ] Labeled dataset stored in Postgres
-- [ ] Label-quality sanity check (10 manually reviewed PRs)
+- [x] Data cleaning pipeline
+- [x] Label generation implementing ADR-002's rules
+- [x] Labeled dataset stored in Postgres
+- [x] Label-quality sanity check (10 manually reviewed PRs)
 
 **Phase 2 — ML Core**
 - [ ] ADR-003: feature set + leakage rationale
