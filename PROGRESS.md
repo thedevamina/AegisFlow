@@ -25,8 +25,8 @@ Tracking against the senior-engineer phased roadmap (6 phases, ~30 days effort).
 ### 🚧 Not yet started
 
 **Phase 1 remaining**
-- [ ] Postgres schema design (ERD) for repos / pull_requests / files_changed / labels / predictions
-- [ ] Laravel migrations implementing the schema
+- [x] Postgres schema design (ERD) for repos / pull_requests / files_changed / labels / predictions
+- [x] Laravel migrations implementing the schema
 - [ ] Data cleaning pipeline
 - [ ] Label generation implementing ADR-002's rules
 - [ ] Labeled dataset stored in Postgres
