@@ -8,10 +8,21 @@ from app.collectors.labeler import label_pr
 from app.db import get_or_create_repo, insert_pull_request, insert_files_changed, insert_label
 
 TARGET_REPOS = [
-    "psf/requests",
-    "pallets/flask",
-    "django/django",
+    "psf/requests", "pallets/flask", "django/django", "fastapi/fastapi",
+    "tiangolo/fastapi", "encode/httpx", "sqlalchemy/sqlalchemy",
+    "pandas-dev/pandas", "numpy/numpy", "scikit-learn/scikit-learn",
+    "pytorch/pytorch", "tensorflow/tensorflow", "keras-team/keras",
+    "expressjs/express", "nodejs/node", "facebook/react", "vuejs/vue",
+    "angular/angular", "sveltejs/svelte", "vitejs/vite",
+    "laravel/laravel", "symfony/symfony", "rails/rails", "ruby/ruby",
+    "golang/go", "rust-lang/rust", "microsoft/vscode", "microsoft/TypeScript",
+    "docker/compose", "kubernetes/kubernetes", "hashicorp/terraform",
+    "ansible/ansible", "elastic/elasticsearch", "redis/redis",
+    "mongodb/mongo", "postgres/postgres", "sqlite/sqlite",
+    "apache/spark", "apache/kafka", "grafana/grafana",
 ]
+
+MAX_PRS_PER_REPO = 150
 
 MAX_PRS_PER_REPO = 20
 
@@ -55,7 +66,11 @@ def process_repo(collector: GitHubCollector, repo: str):
 def main():
     collector = GitHubCollector()
     for repo in TARGET_REPOS:
-        process_repo(collector, repo)
+        try:
+            process_repo(collector, repo)
+        except Exception as e:
+            print(f"!! Skipping {repo} due to error: {e}")
+            continue
     print("\nDone.")
 
 

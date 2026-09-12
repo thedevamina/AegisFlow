@@ -1,0 +1,263 @@
+nohup: ignoring input
+INFO:nexus.collector:Collected 20 PRs from psf/requests
+INFO:nexus.collector:Collected 20 PRs from pallets/flask
+INFO:nexus.collector:Collected 20 PRs from django/django
+INFO:nexus.collector:Collected 20 PRs from fastapi/fastapi
+INFO:nexus.collector:Collected 20 PRs from tiangolo/fastapi
+INFO:nexus.collector:Collected 20 PRs from encode/httpx
+INFO:nexus.collector:Collected 20 PRs from sqlalchemy/sqlalchemy
+INFO:nexus.collector:Collected 20 PRs from pandas-dev/pandas
+INFO:nexus.collector:Collected 20 PRs from numpy/numpy
+INFO:nexus.collector:Collected 20 PRs from scikit-learn/scikit-learn
+INFO:nexus.collector:Collected 20 PRs from pytorch/pytorch
+
+=== Processing psf/requests ===
+Fetched 20 PRs
+  PR #7023: risky=None reason=None
+  PR #7025: risky=False reason=None
+  PR #7026: risky=False reason=None
+  PR #7019: risky=False reason=None
+  PR #7616: risky=False reason=None
+  PR #7017: risky=None reason=None
+  PR #6951: risky=False reason=None
+  PR #6961: risky=None reason=None
+  PR #6962: risky=False reason=None
+  PR #6963: risky=False reason=None
+  PR #6876: risky=False reason=None
+  PR #6966: risky=False reason=None
+  PR #6805: risky=None reason=None
+  PR #6829: risky=None reason=None
+  PR #6816: risky=None reason=None
+  PR #6770: risky=None reason=None
+  PR #6853: risky=None reason=None
+  PR #6968: risky=False reason=None
+  PR #6806: risky=False reason=None
+  PR #6913: risky=None reason=None
+
+=== Processing pallets/flask ===
+Fetched 20 PRs
+  PR #6157: risky=None reason=None
+  PR #6156: risky=None reason=None
+  PR #6155: risky=None reason=None
+  PR #6154: risky=None reason=None
+  PR #6153: risky=None reason=None
+  PR #6151: risky=None reason=None
+  PR #6150: risky=None reason=None
+  PR #6136: risky=None reason=None
+  PR #6147: risky=None reason=None
+  PR #6145: risky=None reason=None
+  PR #6132: risky=None reason=None
+  PR #6135: risky=None reason=None
+  PR #6129: risky=None reason=None
+  PR #6144: risky=None reason=None
+  PR #6142: risky=None reason=None
+  PR #6124: risky=None reason=None
+  PR #6043: risky=None reason=None
+  PR #6096: risky=False reason=None
+  PR #6133: risky=False reason=None
+  PR #6138: risky=None reason=None
+
+=== Processing django/django ===
+Fetched 20 PRs
+  PR #21955: risky=None reason=None
+  PR #21875: risky=False reason=None
+  PR #21949: risky=None reason=None
+  PR #21953: risky=None reason=None
+  PR #21950: risky=None reason=None
+  PR #21951: risky=None reason=None
+  PR #21154: risky=None reason=None
+  PR #21948: risky=None reason=None
+  PR #21947: risky=None reason=None
+  PR #21946: risky=None reason=None
+  PR #21945: risky=None reason=None
+  PR #21941: risky=None reason=None
+  PR #21940: risky=None reason=None
+  PR #21938: risky=None reason=None
+  PR #21939: risky=None reason=None
+  PR #21937: risky=None reason=None
+  PR #21100: risky=None reason=None
+  PR #21381: risky=False reason=None
+  PR #21867: risky=False reason=None
+  PR #20842: risky=False reason=None
+
+=== Processing fastapi/fastapi ===
+Fetched 20 PRs
+  PR #16341: risky=None reason=None
+  PR #16327: risky=None reason=None
+  PR #16335: risky=None reason=None
+  PR #16336: risky=None reason=None
+  PR #16251: risky=None reason=None
+  PR #16329: risky=None reason=None
+  PR #16326: risky=None reason=None
+  PR #16306: risky=None reason=None
+  PR #16305: risky=None reason=None
+  PR #16307: risky=None reason=None
+  PR #16300: risky=None reason=None
+  PR #16273: risky=None reason=None
+  PR #16330: risky=None reason=None
+  PR #16304: risky=None reason=None
+  PR #16302: risky=None reason=None
+  PR #1: risky=False reason=None
+  PR #16299: risky=None reason=None
+  PR #16296: risky=None reason=None
+  PR #16294: risky=None reason=None
+  PR #16285: risky=False reason=None
+
+=== Processing tiangolo/fastapi ===
+Fetched 20 PRs
+  PR #16341: risky=None reason=None
+  PR #16327: risky=None reason=None
+  PR #16335: risky=None reason=None
+  PR #16336: risky=None reason=None
+  PR #16251: risky=None reason=None
+  PR #16329: risky=None reason=None
+  PR #16326: risky=None reason=None
+  PR #16306: risky=None reason=None
+  PR #16305: risky=None reason=None
+  PR #16307: risky=None reason=None
+  PR #16300: risky=None reason=None
+  PR #16273: risky=None reason=None
+  PR #16330: risky=None reason=None
+  PR #16304: risky=None reason=None
+  PR #16302: risky=None reason=None
+  PR #1: risky=False reason=None
+  PR #16299: risky=None reason=None
+  PR #16296: risky=None reason=None
+  PR #16294: risky=None reason=None
+  PR #16285: risky=False reason=None
+
+=== Processing encode/httpx ===
+Fetched 20 PRs
+  PR #3748: risky=None reason=None
+  PR #3764: risky=None reason=None
+  PR #3199: risky=None reason=None
+  PR #3656: risky=None reason=None
+  PR #3698: risky=None reason=None
+  PR #3465: risky=None reason=None
+  PR #3241: risky=None reason=None
+  PR #3762: risky=None reason=None
+  PR #3773: risky=False reason=None
+  PR #3765: risky=None reason=None
+  PR #3759: risky=None reason=None
+  PR #3678: risky=None reason=None
+  PR #3746: risky=None reason=None
+  PR #3720: risky=None reason=None
+  PR #3739: risky=None reason=None
+  PR #3731: risky=None reason=None
+  PR #3730: risky=False reason=None
+  PR #3699: risky=False reason=None
+  PR #3645: risky=None reason=None
+  PR #3703: risky=False reason=None
+
+=== Processing sqlalchemy/sqlalchemy ===
+Fetched 20 PRs
+  PR #13473: risky=None reason=None
+  PR #13571: risky=None reason=None
+  PR #13531: risky=None reason=None
+  PR #13565: risky=None reason=None
+  PR #13524: risky=False reason=None
+  PR #13496: risky=None reason=None
+  PR #13552: risky=None reason=None
+  PR #13551: risky=None reason=None
+  PR #13550: risky=None reason=None
+  PR #13549: risky=None reason=None
+  PR #13471: risky=None reason=None
+  PR #13547: risky=None reason=None
+  PR #13546: risky=None reason=None
+  PR #13545: risky=None reason=None
+  PR #13544: risky=None reason=None
+  PR #13289: risky=None reason=None
+  PR #13467: risky=None reason=None
+  PR #13474: risky=None reason=None
+  PR #13288: risky=None reason=None
+  PR #13051: risky=None reason=None
+
+=== Processing pandas-dev/pandas ===
+Fetched 20 PRs
+  PR #67075: risky=None reason=None
+  PR #68376: risky=False reason=None
+  PR #68357: risky=None reason=None
+  PR #68277: risky=None reason=None
+  PR #68389: risky=False reason=None
+  PR #66794: risky=False reason=None
+  PR #68392: risky=False reason=None
+  PR #65675: risky=None reason=None
+  PR #68311: risky=False reason=None
+  PR #68374: risky=False reason=None
+  PR #68390: risky=False reason=None
+  PR #68393: risky=False reason=None
+  PR #68386: risky=False reason=None
+  PR #67626: risky=None reason=None
+  PR #66844: risky=None reason=None
+  PR #68385: risky=False reason=None
+  PR #68384: risky=False reason=None
+  PR #68382: risky=False reason=None
+  PR #64563: risky=False reason=None
+  PR #66785: risky=False reason=None
+
+=== Processing numpy/numpy ===
+Fetched 20 PRs
+  PR #32588: risky=False reason=None
+  PR #32586: risky=False reason=None
+  PR #32567: risky=None reason=None
+  PR #32587: risky=False reason=None
+  PR #31469: risky=None reason=None
+  PR #32533: risky=False reason=None
+  PR #32575: risky=False reason=None
+  PR #32584: risky=False reason=None
+  PR #32539: risky=False reason=None
+  PR #32583: risky=False reason=None
+  PR #32582: risky=False reason=None
+  PR #32581: risky=False reason=None
+  PR #32579: risky=False reason=None
+  PR #32578: risky=False reason=None
+  PR #28759: risky=False reason=None
+  PR #32580: risky=None reason=None
+  PR #32568: risky=False reason=None
+  PR #32576: risky=False reason=None
+  PR #32574: risky=False reason=None
+  PR #32573: risky=False reason=None
+
+=== Processing scikit-learn/scikit-learn ===
+Fetched 20 PRs
+  PR #34905: risky=False reason=None
+  PR #34906: risky=False reason=None
+  PR #34749: risky=None reason=None
+  PR #34927: risky=False reason=None
+  PR #34924: risky=False reason=None
+  PR #34921: risky=False reason=None
+  PR #34917: risky=False reason=None
+  PR #34802: risky=None reason=None
+  PR #34918: risky=False reason=None
+  PR #34922: risky=False reason=None
+  PR #33806: risky=None reason=None
+  PR #34902: risky=False reason=None
+  PR #34894: risky=None reason=None
+  PR #34916: risky=False reason=None
+  PR #34915: risky=False reason=None
+  PR #34201: risky=False reason=None
+  PR #34788: risky=None reason=None
+  PR #34911: risky=None reason=None
+  PR #34907: risky=None reason=None
+  PR #32002: risky=None reason=None
+
+=== Processing pytorch/pytorch ===
+Fetched 20 PRs
+  PR #196735: risky=None reason=None
+  PR #196716: risky=None reason=None
+  PR #196615: risky=None reason=None
+  PR #187187: risky=None reason=None
+  PR #196651: risky=None reason=None
+  PR #196563: risky=None reason=None
+  PR #189160: risky=None reason=None
+  PR #193722: risky=None reason=None
+  PR #196076: risky=None reason=None
+  PR #196595: risky=None reason=None
+  PR #196620: risky=None reason=None
+  PR #195302: risky=None reason=NoneINFO:nexus.collector:Collected 20 PRs from tensorflow/tensorflow
+INFO:nexus.collector:Collected 20 PRs from keras-team/keras
+INFO:nexus.collector:Collected 20 PRs from expressjs/express
+INFO:nexus.collector:Collected 20 PRs from nodejs/node
+INFO:nexus.collector:Collected 20 PRs from facebook/react
+INFO:nexus.collector:Collected 20 PRs from vuejs/vue
+INFO:nexus.collector:Collected 20 PRs from angular/angular

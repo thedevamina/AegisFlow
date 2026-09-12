@@ -152,7 +152,19 @@ class GitHubCollector:
     def get_commits(self, repo: str, max_items: int = 300) -> list[dict]:
         url = f"{GITHUB_API}/repos/{repo}/commits"
         return list(self._paginate(url, max_items=max_items))
+    def get_commits_in_range(self, repo: str, since_iso: str, until_iso: str) -> list[dict]:
+        """Commits within a specific date window -- used for per-PR revert/hotfix checks,
+        since a repo-wide 'latest 300 commits' sample won't cover PRs merged long ago."""
+        url = f"{GITHUB_API}/repos/{repo}/commits"
+        params = {"since": since_iso, "until": until_iso}
+        return list(self._paginate(url, params=params, max_items=300))
 
+    def get_issues_in_range(self, repo: str, since_iso: str, max_items: int = 100) -> list[dict]:
+        """Issues updated on/after since_iso -- GitHub's API doesn't support an 'until'
+        for issues, so callers should filter created_at against their own window end."""
+        url = f"{GITHUB_API}/repos/{repo}/issues"
+        params = {"state": "all", "since": since_iso, "sort": "created", "direction": "asc"}
+        return list(self._paginate(url, params=params, max_items=max_items))
     def rate_limit_status(self) -> dict:
         data, _ = self._get(f"{GITHUB_API}/rate_limit", use_cache=False)
         return data
